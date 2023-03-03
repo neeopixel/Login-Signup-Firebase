@@ -1,4 +1,4 @@
-import logo from '../src/images/';
+import logo from './images/logo.svg';
 import './App.css';
 import Draggable from 'react-draggable';
 
