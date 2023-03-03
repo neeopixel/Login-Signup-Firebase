@@ -1,22 +1,16 @@
 import logo from '../src/images/';
 import './App.css';
+import Draggable from 'react-draggable';
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Draggable bounds="parent">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        </Draggable>
       </header>
     </div>
   );
