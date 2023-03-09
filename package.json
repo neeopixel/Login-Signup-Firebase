@@ -1,6 +1,6 @@
 {
   "homepage": "https://siddhartt-folio.github.io/Login-Signup-Firebase/",
-  "name": "login-signup",
+  "name": "firebase-login-signup",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
