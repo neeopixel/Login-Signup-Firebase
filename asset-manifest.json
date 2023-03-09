@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Login-Signup-Firebase/static/css/main.ec982064.css",
-    "main.js": "/Login-Signup-Firebase/static/js/main.c55e8fcb.js",
+    "main.js": "/Login-Signup-Firebase/static/js/main.5a083432.js",
     "static/media/logo.svg": "/Login-Signup-Firebase/static/media/logo.bfd2489966364589e7231157a5ae5102.svg",
     "index.html": "/Login-Signup-Firebase/index.html",
     "main.ec982064.css.map": "/Login-Signup-Firebase/static/css/main.ec982064.css.map",
-    "main.c55e8fcb.js.map": "/Login-Signup-Firebase/static/js/main.c55e8fcb.js.map"
+    "main.5a083432.js.map": "/Login-Signup-Firebase/static/js/main.5a083432.js.map"
   },
   "entrypoints": [
     "static/css/main.ec982064.css",
-    "static/js/main.c55e8fcb.js"
+    "static/js/main.5a083432.js"
   ]
 }
