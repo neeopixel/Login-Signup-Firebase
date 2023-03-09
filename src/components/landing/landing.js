@@ -6,7 +6,7 @@ import "./landing.css";
 
 function Landing() {
   return (
-    <div className="App">
+    <div className="App-Landing">
 
       landing
       <Footer />

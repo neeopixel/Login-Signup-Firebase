@@ -4,16 +4,17 @@ import "./Header.css";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import Logo from "../images/logo.svg";
 
 export default function Header() {
   return (
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/Landing">
+          <Navbar.Brand href="/Login-Signup-Firebase">
             <img
               alt=""
-              src="/logo.svg"
+              src={Logo}
               width="30"
               height="30"
               className="d-inline-block align-top"
@@ -23,9 +24,9 @@ export default function Header() {
         </Container>
         <Container className="justify-content-end">
           <Nav className="me-auto">
-            <Nav.Link href="/Dashboard">Dashboard</Nav.Link>
-            <Nav.Link href="/Signin">Sign In</Nav.Link>
-            <Nav.Link href="/SignUp">Sign Up</Nav.Link>
+            <Nav.Link href="/Login-Signup-Firebase/Dashboard">Dashboard</Nav.Link>
+            <Nav.Link href="/Login-Signup-Firebase/Signin">Sign In</Nav.Link>
+            <Nav.Link href="/Login-Signup-Firebase/SignUp">Sign Up</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

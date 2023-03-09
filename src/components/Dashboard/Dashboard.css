@@ -12,6 +12,7 @@ body {
     text-align: center;
     overflow: hidden;
     width: 100%;
+    height: 90vh;
   }
   
   .App-logo {
@@ -26,7 +27,7 @@ body {
   }
 .Dragclass{
   position: relative;
-    width: 100dvw;
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
