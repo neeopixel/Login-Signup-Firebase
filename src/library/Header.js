@@ -10,7 +10,7 @@ export default function Header() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/Dashboard">
+          <Navbar.Brand href="/Landing">
             <img
               alt=""
               src="/logo.svg"
